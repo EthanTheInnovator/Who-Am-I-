@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "SwiftUIBlurView",
+        "repositoryURL": "https://github.com/danielsaidi/SwiftUIBlurView",
+        "state": {
+          "branch": "master",
+          "revision": "60a61ee27184dd227521ba80d0fcf8198389f228",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

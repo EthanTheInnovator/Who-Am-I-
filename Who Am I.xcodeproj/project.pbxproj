@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,9 @@
 		E920CB8B2359DFF400295A06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E920CB8A2359DFF400295A06 /* Assets.xcassets */; };
 		E920CB8E2359DFF400295A06 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E920CB8D2359DFF400295A06 /* Preview Assets.xcassets */; };
 		E920CB912359DFF400295A06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E920CB8F2359DFF400295A06 /* LaunchScreen.storyboard */; };
+		E920CB992359E53300295A06 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = E920CB982359E53300295A06 /* Question.swift */; };
+		E95D471B235FCB3600F74091 /* PhantomTheif.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95D471A235FCB3600F74091 /* PhantomTheif.swift */; };
+		E9E0E40C235E670B00724640 /* SwiftUIBlurView in Frameworks */ = {isa = PBXBuildFile; productRef = E9E0E40B235E670B00724640 /* SwiftUIBlurView */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,8 @@
 		E920CB8D2359DFF400295A06 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E920CB902359DFF400295A06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E920CB922359DFF400295A06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E920CB982359E53300295A06 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		E95D471A235FCB3600F74091 /* PhantomTheif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhantomTheif.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9E0E40C235E670B00724640 /* SwiftUIBlurView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +65,8 @@
 				E920CB842359DFF300295A06 /* AppDelegate.swift */,
 				E920CB862359DFF300295A06 /* SceneDelegate.swift */,
 				E920CB882359DFF300295A06 /* ContentView.swift */,
+				E920CB982359E53300295A06 /* Question.swift */,
+				E95D471A235FCB3600F74091 /* PhantomTheif.swift */,
 				E920CB8A2359DFF400295A06 /* Assets.xcassets */,
 				E920CB8F2359DFF400295A06 /* LaunchScreen.storyboard */,
 				E920CB922359DFF400295A06 /* Info.plist */,
@@ -91,6 +99,9 @@
 			dependencies = (
 			);
 			name = "Who Am I";
+			packageProductDependencies = (
+				E9E0E40B235E670B00724640 /* SwiftUIBlurView */,
+			);
 			productName = "Who Am I";
 			productReference = E920CB812359DFF300295A06 /* Who Am I.app */;
 			productType = "com.apple.product-type.application";
@@ -119,6 +130,9 @@
 				Base,
 			);
 			mainGroup = E920CB782359DFF300295A06;
+			packageReferences = (
+				E9E0E40A235E670B00724640 /* XCRemoteSwiftPackageReference "SwiftUIBlurView" */,
+			);
 			productRefGroup = E920CB822359DFF300295A06 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -147,6 +161,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E920CB852359DFF300295A06 /* AppDelegate.swift in Sources */,
+				E95D471B235FCB3600F74091 /* PhantomTheif.swift in Sources */,
+				E920CB992359E53300295A06 /* Question.swift in Sources */,
 				E920CB872359DFF300295A06 /* SceneDelegate.swift in Sources */,
 				E920CB892359DFF300295A06 /* ContentView.swift in Sources */,
 			);
@@ -342,6 +358,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E9E0E40A235E670B00724640 /* XCRemoteSwiftPackageReference "SwiftUIBlurView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/danielsaidi/SwiftUIBlurView";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E9E0E40B235E670B00724640 /* SwiftUIBlurView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E9E0E40A235E670B00724640 /* XCRemoteSwiftPackageReference "SwiftUIBlurView" */;
+			productName = SwiftUIBlurView;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E920CB792359DFF300295A06 /* Project object */;
 }
