@@ -1,4 +1,4 @@
-# Which Phantom Theif Are You?
+# Which Phantom Thief Are You?
 
 For my "Who am I?" app, I based it on my favorite video game "Persona 5"
 
